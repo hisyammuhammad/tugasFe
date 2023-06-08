@@ -1,0 +1,22 @@
+.background{
+  height: 29rem;
+}
+
+@media only screen and (max-width: 768px){
+  .background{
+      height: 19rem;
+  }
+  
+  .tempat{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .favorit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
